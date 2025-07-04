@@ -39,7 +39,7 @@ const Button = () => {
   return (
     <>
       <div className=" btn  mt-1  rounded-md p-2  bg-blue-950 text-white">
-        {connected ? (
+        {connected ? (  
           <div className="">
             <p className="  p-3 ">
               <strong>Connected Wallet:</strong> {walletAddress}
